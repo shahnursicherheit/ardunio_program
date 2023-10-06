@@ -1,6 +1,6 @@
 // C++ code
 // 111 output like this 
-void setup()
+void setup() // it is Arduino mini project their light are one off by binary bite 000(all off) 001(3rd on only ) 0010(2nd on only)
 {
   pinMode(13, OUTPUT);
   pinMode(12, OUTPUT);
