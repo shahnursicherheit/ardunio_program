@@ -1,6 +1,6 @@
 // C++ code
 // 111 output like this 
-void setup() // it is Arduino mini project their light are one off by binary bite 000(all off) 001(3rd on only ) 0010(2nd on only)
+void setup() // it is Arduino mini project their light are one off by binary bite 000(all off) 001(3rd on only ) 0010(2nd on only) it can modify by adding more light if we add more light then we need only to add that times nested for loop
 {
   pinMode(13, OUTPUT);
   pinMode(12, OUTPUT);
